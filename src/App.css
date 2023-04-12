@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .App-logo {
@@ -14,18 +15,128 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #D9D9D9;
+  min-height: 50px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #000000;
+  max-width: 1177px;
+  width: 100%;
+  margin: 0px auto;
+  margin-bottom: 19px;
 }
 
-.App-link {
-  color: #61dafb;
+.App-div{
+  width: 181px;
+  height: 37px;
+  background: #F1F2AE;
+  margin-left: 26px;
+}
+.App-title{
+  margin-left: 349px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.App-list{
+  margin-left: 227px;
+  margin-right: 28px;
+  display: flex;
+  gap: 19px;
+}
+.App-item{
+  width: 46px;
+  height: 37px;
+  background: #E7EFD6;
+  list-style: none;
+}
+
+.App-banner{
+  max-width: 1177px;
+  width: 100%;
+  margin: 0px auto;
+  margin-bottom: 24px;
+  background-color: #D9D9D9;
+}
+.App-banner-title{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  padding: 65px 0px;
+  margin: 0px;
+}
+
+.App-main-content{
+  max-width: 1177px;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  gap: 67px;
+}
+
+.App-blog-container{
+  background-color: #D9D9D9;
+  width: 810px;
+}
+.App-blog-title{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  margin: 15px 0px;
+}
+
+.App-blog-list{
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  padding: 0px;
+  margin: 0px 25px;
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.App-blog-item{
+  width: 759px;
+  height: 70px;
+  background: #F9D7D7;
+}
+
+.App-news{
+  width: 300px;
+  background: #D9D9D9;
+}
+.App-news-title{
+  font-family: 'Inter',sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  margin: 15px 0px;
+}
+
+.App-news-list{
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin: 0px 25px 29px 25px;
+  list-style: none;
+  padding: 0;
+}
+.App-news-item{
+  width: 247px;
+  height: 110px;
+  background: #BDCDF7;
 }
 
 @keyframes App-logo-spin {
